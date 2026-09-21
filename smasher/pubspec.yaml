@@ -1,0 +1,24 @@
+name: smasher
+description: Smasher App — Flutter implementation of the Figma design system.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  # Renders the 184x184 invitation code on P02 04 / P02 05.
+  qr_flutter: ^4.1.0
+  # Renders the icon set exported from the Figma file.
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

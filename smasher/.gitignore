@@ -1,0 +1,48 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Android
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/local.properties
+android/key.properties
+*.jks
+
+# iOS / macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/flutter_export_environment.sh
+**/Podfile.lock
+.DS_Store
+
+# Web
+web/.dart_tool/
+
+# Coverage / logs
+coverage/
+*.log
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
